@@ -233,8 +233,8 @@ export default function App() {
             <p className="max-w-xs font-bold opacity-50">Sáng tạo tri thức không giới hạn cùng Trí tuệ Nhân tạo thực thụ.</p>
           </div>
           <div className="font-black text-xs opacity-40 tracking-wider text-right leading-relaxed">
-            Made by Nguyễn Gia Bảo - Lớp 7.2<br/>
             Trường THCS Lý Tự Trọng - P. An Hội Đông<br/>
+            Made by Nguyễn Gia Bảo - Lớp 7.2<br/>
             Instructor: Nguyễn Tri Thị Tâm
           </div>
         </div>
