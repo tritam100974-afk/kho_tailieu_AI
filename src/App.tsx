@@ -239,7 +239,7 @@ export default function App() {
           </div>
           <div className="font-black text-xs opacity-40 tracking-wider text-right leading-relaxed">
             Made by Nguyễn Gia Bảo - Lớp 7.2<br/>
-            Giáo viên hướng dẫn: Nguyễn Tri Thị Tâm
+            Instructor: Nguyễn Tri Thị Tâm
           </div>
         </div>
       </footer>
