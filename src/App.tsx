@@ -232,13 +232,9 @@ export default function App() {
             <h2 className="text-3xl font-black tracking-tighter uppercase italic">Kho tài liệu về AI</h2>
             <p className="max-w-xs font-bold opacity-50">Sáng tạo tri thức không giới hạn cùng Trí tuệ Nhân tạo thực thụ.</p>
           </div>
-          <div className="flex gap-8">
-            {["Facebook", "Instagram", "Threads", "TikTok"].map(social => (
-              <a key={social} href="#" className="font-black uppercase text-xs tracking-widest hover:text-orange-500 transition-colors">{social}</a>
-            ))}
-          </div>
           <div className="font-black text-xs opacity-40 tracking-wider text-right leading-relaxed">
             Made by Nguyễn Gia Bảo - Lớp 7.2<br/>
+            Trường THCS Lý Tự Trọng - P. An Hội Đông<br/>
             Instructor: Nguyễn Tri Thị Tâm
           </div>
         </div>
