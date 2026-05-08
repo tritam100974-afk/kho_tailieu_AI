@@ -55,7 +55,7 @@ export default function App() {
           <div className="bg-[#1A1A1A] p-2 rounded-xl rotate-3">
             <Brain className="w-6 h-6 text-lime-400" />
           </div>
-          <span className="font-black text-2xl tracking-tighter uppercase italic">KHO TÀI LIỆU AI</span>
+          <span className="font-black text-2xl tracking-tighter uppercase italic">Kho tài liệu về AI</span>
         </div>
         
         <div className="flex items-center gap-4">
@@ -229,7 +229,7 @@ export default function App() {
       <footer className="bg-white border-t-4 border-[#1A1A1A] py-16 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10 text-center md:text-left">
           <div className="space-y-4">
-            <h2 className="text-3xl font-black tracking-tighter uppercase italic">KHO TÀI LIỆU AI</h2>
+            <h2 className="text-3xl font-black tracking-tighter uppercase italic">Kho tài liệu về AI</h2>
             <p className="max-w-xs font-bold opacity-50">Sáng tạo tri thức không giới hạn cùng Trí tuệ Nhân tạo thực thụ.</p>
           </div>
           <div className="flex gap-8">
