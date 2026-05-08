@@ -20,10 +20,10 @@ export const ARTICLES: Article[] = [
   {
     id: "2",
     category: "meo",
-    title: "Công thức CLEAR cho Prompt 'thần thánh'",
-    excerpt: "Công thức giúp bạn nhận được kết quả chính xác 99% từ mọi AI.",
+    title: "Mẹo đọc tài liệu 50 trang trong 1 phút",
+    excerpt: "Dùng kỹ thuật 'Tóm tắt phân mảnh' để nắm bắt kiến thức khổng lồ.",
     readTime: "5 phút",
-    content: "Để AI hiểu bạn muốn gì, hãy sử dụng công thức CLEAR:\n- Context (Ngữ cảnh): Bạn là ai? AI đóng vai gì?\n- Limit (Giới hạn): Độ dài bao nhiêu? Định dạng gì?\n- Example (Ví dụ): Đưa ra một ví dụ mẫu nếu có thể.\n- Action (Hành động): Yêu cầu AI làm gì cụ thể (Viết, sửa, tóm tắt...).\n- Result (Kết quả): Kết quả mong muốn cuối cùng là gì?"
+    content: "Thay vì yêu cầu AI tóm tắt cả cuốn sách (dễ bị mất chi tiết), hãy dùng mẹo 'Tóm tắt theo mục lục'. Bạn gửi mục lục trước, yêu cầu AI giải thích cấu trúc, sau đó yêu cầu tóm tắt từng chương một. Cách này giúp bạn không bỏ lỡ những điểm then chốt và có cái nhìn sâu sắc hơn là một bản tóm tắt hời hợt."
   },
   {
     id: "3",
@@ -44,10 +44,10 @@ export const ARTICLES: Article[] = [
   {
     id: "9",
     category: "meo",
-    title: "Kỹ thuật Chain-of-Thought (Chuỗi tư duy)",
-    excerpt: "Yêu cầu AI 'suy nghĩ từng bước' để có kết quả logic hơn.",
+    title: "Kỹ thuật 'Few-shot': Dạy AI bằng ví dụ",
+    excerpt: "Đừng chỉ ra lệnh, hãy đưa cho AI 2-3 ví dụ mẫu để nó làm theo.",
     readTime: "4 phút",
-    content: "Một trong những mẹo lớn nhất khi dùng AI cho Toán học hoặc Lập luận là yêu cầu nó: 'Hãy suy nghĩ từng bước một' (Let's think step by step). Khi làm vậy, AI sẽ kích hoạt chuỗi tư duy logic thay vì đưa ra câu trả lời ngay lập tức, điều này giúp giảm thiểu sai sót đáng kể và bạn cũng có thể theo dõi được logic của nó."
+    content: "Nếu bạn muốn AI viết văn theo phong cách của bạn, đừng chỉ bảo 'hãy viết vui vẻ'. Hãy đưa cho nó 2 đoạn văn bạn đã viết trước đó và bảo: 'Đây là phong cách của tôi. Hãy dùng phong cách này để viết tiếp về chủ đề...'. AI sẽ bắt chước giọng văn, nhịp điệu và cách dùng từ của bạn chính xác hơn rất nhiều."
   },
   {
     id: "10",
@@ -60,10 +60,10 @@ export const ARTICLES: Article[] = [
   {
     id: "11",
     category: "meo",
-    title: "Dùng AI học Ngoại ngữ hiệu quả",
-    excerpt: "Biến ChatGPT thành người bạn bản xứ thực thụ.",
+    title: "Biến AI thành 'Gia sư tranh biện'",
+    excerpt: "Mẹo nâng cao tư duy phản biện bằng cách 'ép' AI cãi lại mình.",
     readTime: "5 phút",
-    content: "Thay vì chỉ bảo nó dịch, hãy thử dùng Prompt này: 'Tôi muốn luyện giao tiếp tiếng Anh về chủ đề du lịch. Hãy đóng vai một người bạn bản xứ, nói chuyện với tôi một cách thân mật. Sau mỗi lượt tôi nói, hãy sửa lỗi ngữ pháp giúp tôi và gợi ý cách diễn đạt tự nhiên hơn.' Bạn sẽ thấy trình độ ngoại ngữ lên hương rõ rệt."
+    content: "Hãy thử dùng Prompt này: 'Tôi đang chuẩn bị luận điểm cho chủ đề 'AI có thay thế giáo viên hay không?'. Hãy đóng vai một người phản đối kịch liệt quan điểm của tôi. Cứ mỗi khi tôi đưa ra một lý lẽ, bạn hãy tìm ra kẽ hở và đưa ra dẫn chứng phản bác lại.' Cách này giúp bạn chuẩn bị tâm lý và rèn luyện tư duy sắc bén cho các bài thuyết trình."
   },
   {
     id: "12",
@@ -88,5 +88,13 @@ export const ARTICLES: Article[] = [
     excerpt: "Làm sao để nhận biết một bức ảnh hay bài viết là sản phẩm của AI?",
     readTime: "5 phút",
     content: "Trong một thế giới đầy 'Deepfake', kỹ năng phân biệt là sống còn. Với hình ảnh, hãy chú ý vào các chi tiết nhỏ như ngón tay, vành tai hoặc sự bất hợp lý trong ánh sáng. Với văn bản, AI thường có xu hướng dùng các từ ngữ quá trau chuốt, lặp cấu trúc hoặc thiếu những cảm xúc cá nhân sâu sắc. Luôn đặt câu hỏi 'Tại sao nội dung này xuất hiện?' trước khi tin tưởng."
+  },
+  {
+    id: "15",
+    category: "meo",
+    title: "Mẹo 'Reverse Prompting' (Prompt ngược)",
+    excerpt: "Yêu cầu AI viết hộ bạn bộ câu hỏi để đạt được kết quả mong muốn.",
+    readTime: "4 phút",
+    content: "Đôi khi bạn không biết phải hỏi gì để AI làm tốt nhất. Hãy thử: 'Tôi muốn bạn tạo ra một bản kế hoạch học tập 30 ngày cho kỳ thi IELTS. Trước khi bắt đầu, hãy đặt cho tôi 5 câu hỏi quan trọng nhất để bạn có đủ thông tin tạo ra kết quả tốt nhất.' Lúc này, AI sẽ là người chủ động 'phỏng vấn' bạn."
   }
 ];

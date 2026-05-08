@@ -237,8 +237,9 @@ export default function App() {
               <a key={social} href="#" className="font-black uppercase text-xs tracking-widest hover:text-orange-500 transition-colors">{social}</a>
             ))}
           </div>
-          <div className="font-black text-xs opacity-30 uppercase tracking-[0.2em]">
-            MADE BY HUYEN & TEAM © 2026
+          <div className="font-black text-xs opacity-40 tracking-wider text-right leading-relaxed">
+            Made by Nguyễn Gia Bảo - Lớp 7.2<br/>
+            Giáo viên hướng dẫn: Nguyễn Tri Thị Tâm
           </div>
         </div>
       </footer>
