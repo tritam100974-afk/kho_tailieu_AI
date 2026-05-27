@@ -235,7 +235,7 @@ export default function App() {
           <div className="font-black text-xs opacity-40 tracking-wider text-right leading-relaxed">
             Trường THCS Lý Tự Trọng - P. An Hội Đông<br/>
             Made by Nguyễn Gia Bảo - Lớp 8.2<br/>
-            Instructor: Nguyễn Tri Thị Tâm
+            Instructors: Nguyễn Tri Thị Tâm & Huỳnh Thị Phương Ngọc
           </div>
         </div>
       </footer>
